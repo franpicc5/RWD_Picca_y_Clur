@@ -1,0 +1,124 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+    background-color: #dfdfdf;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #dfdfdf;
+}
+
+h1 {
+    margin: 5% 3% 7% 3%;
+    grid-area: titulo;
+    text-align: center;
+    color: #0453f1;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+main img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.6;
+    width: 90%;
+    margin: 10% 5% 10% 5%;
+}
+
+.siguiente_pagina{
+    width: 50px;
+    height: auto;
+}
+
+.anterior_pagina{
+    width: 50px;
+    height: auto;
+}
+
+.anterior_pagina img, .siguiente_pagina img {
+    width: 75px;
+    height: auto;
+}
+
+.logo_central img {
+    width: 175px;
+    height: auto;
+}
+
+@media (max-width: 500px){
+    html {
+        font-family: "Raleway", sans-serif;
+        background-color: #dfdfdf;
+        font-size: 15px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #dfdfdf;
+    }
+    
+    h1 {
+        margin: 5% 3% 7% 3%;
+        grid-area: titulo;
+        text-align: center;
+        color: #0453f1;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 3rem;
+    }
+    
+    main img {
+        width: 100%;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.6;
+        width: 90%;
+        margin: 10% 5% 10% 5%;
+    }
+    
+    .siguiente_pagina{
+        width: 50px;
+        height: auto;
+    }
+    
+    .anterior_pagina{
+        width: 50px;
+        height: auto;
+     
+    }
+    
+    .anterior_pagina img, .siguiente_pagina img {
+        width: 50px;
+        height: auto;
+    }
+    
+    .logo_central img {
+        width: 125px;
+        height: auto;
+    }
+}

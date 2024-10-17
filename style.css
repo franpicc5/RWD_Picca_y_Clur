@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    background: url(fotos/Home.webp) center top no-repeat;
+    background-size: 300%;
+    font-family: "Raleway", sans-serif;
+    background-color: #dfdfdf;
+    color: white;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #dfdfdf;
+}
+
+.carrera_montaña {
+    font-size:1.5rem;
+    text-align: center;
+    margin: 15% 0% 10% 0%;
+    font-weight: 550;
+}
+
+.registrate2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: normal;
+    margin: 15% 0% 20% 0%;
+    text-align: center;
+}
+
+.maraton {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+}
+
+.fecha {
+    font-size: 1.5rem;
+    font-style: normal;
+    margin: 5% 0% 25% 0%;
+    text-align: center;
+    font-weight: 550;
+}
+
+.registrate {
+    background-color: #0453f1;
+    border-radius: 25px;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.siguiente_pagina{
+    width: 50px;
+    height: auto;
+}
+
+.anterior_pagina{
+    width: 50px;
+    height: auto;
+    visibility: hidden;
+}
+
+.anterior_pagina img, .siguiente_pagina img {
+    width: 75px;
+    height: auto;
+}
+
+.logo_central img {
+    width: 175px;
+    height: auto;
+}
+
+
+@media (max-width: 500px){ 
+    html {
+        background: url(fotos/Home.webp) center top no-repeat;
+        background-size: 400%;
+        font-family: "Raleway", sans-serif;
+        background-color: #dfdfdf;
+        color: white;
+        font-size: 15px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #dfdfdf;
+    }
+
+    .carrera_montaña {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 20% 0% 12% 0%;
+        font-weight: 550;
+    }
+    
+    .registrate2 {
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-style: normal;
+        margin: 30% 0% 10% 0%;
+        text-align: center;
+    }
+    
+    .maraton {
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        margin: 5% 0% 5% 0%;
+    }
+    
+    .fecha {
+        font-size: 1.5rem;
+        font-style: normal;
+        margin: 5% 0% 25% 0%;
+        text-align: center;
+        font-weight: 550;
+    }
+    
+    .registrate {
+        background-color: #0453f1;
+        border-radius: 25px;
+        padding: 5%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    
+    .siguiente_pagina{
+        width: 50px;
+        height: auto;
+    }
+    
+    .anterior_pagina{
+        width: 50px;
+        height: auto;
+        visibility: hidden;
+    }
+    
+    .anterior_pagina img, .siguiente_pagina img {
+        width: 50px;
+        height: auto;
+    }
+    
+    .logo_central img {
+        width: 125px;
+        height: auto;
+    }
+}
